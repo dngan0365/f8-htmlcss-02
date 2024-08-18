@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+}
+:root {
+    --primary-color: #171100;
+}
+body {
+    color: var(--primary-color,#000);
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* Common */
+a {
+    text-decoration: none;
+}
+.content {
+    width: 110000px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    padding: 18px 16px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    min-width: 98px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+}
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.btn {
+    opacity: 0.9
+}
+/* xuong hang */
+.line-clamp {
+    display: -webkit-box;
+    line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+/* -------Header--------- */
+
+.heading {
+    background-color: #FFFCF4;
+}
+.content {
+    background-color: #FFFCF4;
+    padding: 36px 135px;
+}
+.navbar {
+    margin-left: auto;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar img {
+    display: inline-block;
+    height: 34px;
+    width: 85px;
+}
+.navbar .right .menu {
+    display: inline-block;
+    width: 359px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .right .btn {
+    display: inline-block;
+    display: inline-block;
+}
